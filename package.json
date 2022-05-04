@@ -1,0 +1,58 @@
+{
+  "name": "VideoLab",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@tensorflow-models/speech-commands": "^0.4.0",
+    "@tensorflow/tfjs": "^1.7.4",
+    "@tensorflow/tfjs-vis": "^1.5.1",
+    "core-js": "^3.6.5",
+    "echarts": "^5.3.1",
+    "element-ui": "^2.15.6",
+    "face-api.js": "^0.22.2",
+    "pomie-the-package": "^1.0.1",
+    "three": "^0.138.2",
+    "vue": "^2.6.11",
+    "vue-bus": "^1.2.1",
+    "vue-router": "^3.3.2",
+    "webrtc-adapter": "^7.7.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.3.1",
+    "@vue/cli-plugin-eslint": "~4.3.1",
+    "@vue/cli-plugin-router": "~4.3.1",
+    "@vue/cli-service": "~4.3.1",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^2.0.5",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/prettier"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
